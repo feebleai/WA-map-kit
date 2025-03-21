@@ -4,12 +4,12 @@ on:
   push:
     branches:
       - master
-  workflow_dispatch: # allow manual execution
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
-  actions: write
+  id-token: write
 
 jobs:
   build-and-deploy:
@@ -82,12 +82,18 @@ jobs:
         if: ${{ env.UPLOAD_MODE == 'MAP_STORAGE' }}
         run: npm run upload-only
 
-      - name: Deploy using Github Pages
-        if: ${{ env.UPLOAD_MODE == 'GH_PAGES' }}
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist/
-          BASE_BRANCH: master
+          path: dist/
 
+  deploy:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
