@@ -38,7 +38,8 @@ export default defineConfig({
         headers: {
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-            "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization",
+            "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept, Authorization, baggage, sentry-trace",
+            "Access-Control-Allow-Credentials": "true",
             "Cache-Control": "no-cache, no-store, must-revalidate",
         },
         open: "/",
