@@ -152970,7 +152970,7 @@
         0,
         0,
         0,
-        412,
+        0,
         0,
         0,
         0,
@@ -240102,7 +240102,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "FEEBLE-HQ-chunk-1-da1dcac8.png",
+      "image": "FEEBLE-HQ-chunk-1-c24f78e5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -240117,7 +240117,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "FEEBLE-HQ-chunk-2-da1dcac8.png",
+      "image": "FEEBLE-HQ-chunk-2-c24f78e5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -242273,7 +242273,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "FEEBLE-HQ-chunk-3-da1dcac8.png",
+      "image": "FEEBLE-HQ-chunk-3-c24f78e5.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -245329,7 +245329,7 @@
     {
       "columns": 6,
       "firstgid": 769,
-      "image": "FEEBLE-HQ-chunk-4-da1dcac8.png",
+      "image": "FEEBLE-HQ-chunk-4-c24f78e5.png",
       "imageheight": 192,
       "imagewidth": 192,
       "margin": 0,
