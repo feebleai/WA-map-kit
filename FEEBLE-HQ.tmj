@@ -240102,7 +240102,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "FEEBLE-HQ-chunk-1-c24f78e5.png",
+      "image": "FEEBLE-HQ-chunk-1-7b7018a3.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -240117,7 +240117,7 @@
     {
       "columns": 16,
       "firstgid": 257,
-      "image": "FEEBLE-HQ-chunk-2-c24f78e5.png",
+      "image": "FEEBLE-HQ-chunk-2-7b7018a3.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -242273,7 +242273,7 @@
     {
       "columns": 16,
       "firstgid": 513,
-      "image": "FEEBLE-HQ-chunk-3-c24f78e5.png",
+      "image": "FEEBLE-HQ-chunk-3-7b7018a3.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -245329,7 +245329,7 @@
     {
       "columns": 6,
       "firstgid": 769,
-      "image": "FEEBLE-HQ-chunk-4-c24f78e5.png",
+      "image": "FEEBLE-HQ-chunk-4-7b7018a3.png",
       "imageheight": 192,
       "imagewidth": 192,
       "margin": 0,
@@ -246010,6 +246010,38 @@
   "nextlayerid": 15,
   "nextobjectid": 3,
   "orientation": "orthogonal",
+  "properties": [
+    {
+      "name": "mapName",
+      "type": "string",
+      "value": "Feeble HQ"
+    },
+    {
+      "name": "mapDescription",
+      "type": "string",
+      "value": "The Feeble virtual office"
+    },
+    {
+      "name": "loadingLogo",
+      "type": "string",
+      "value": "https://maps.feebleplatform.com/public/images/feeble-logo.svg"
+    },
+    {
+      "name": "backgroundColor",
+      "type": "string",
+      "value": "#0A0A0A"
+    },
+    {
+      "name": "primaryColor",
+      "type": "string",
+      "value": "#7C3AED"
+    },
+    {
+      "name": "showPoweredBy",
+      "type": "bool",
+      "value": false
+    }
+  ],
   "renderorder": "right-down",
   "tileheight": 32,
   "tilewidth": 32,
